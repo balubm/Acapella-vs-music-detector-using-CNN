@@ -141,34 +141,3 @@ print(cm_df)
 
 #Save model
 model.save('/Users/balamuralibalu/PythonProjects/voice_controlla/Models/acapella_vs_music_detector.keras')
-
-
-# file_paths = [
-#     #'/Users/balamuralibalu/PythonProjects/AI_Music_detection_project/AI_music_detection/out/data_batch_1.npz',
-#     '/Users/balamuralibalu/PythonProjects/AI_Music_detection_project/AI_music_detection/out/data_batch_2.npz',
-#     '/Users/balamuralibalu/PythonProjects/AI_Music_detection_project/AI_music_detection/out/data_batch_3.npz',
-#     '/Users/balamuralibalu/PythonProjects/AI_Music_detection_project/AI_music_detection/out/data_batch_4.npz',
-# ]
-
-# for i, file in enumerate(file_paths):
-#     testing_data = np.load(file)
-#     X_testing = testing_data["spectrograms"]
-#     y_testing = testing_data["labels"]
-#     ones = np.sum(y_testing)
-#     print(f"{ones} ones out of 1000")
-#     mean = np.mean(X_testing)
-#     std = np.std(X_testing)
-#     X_testing_norm = (X_testing - mean)/std
-#     X_testing_norm = X_testing_norm[...,np.newaxis]
-
-
-
-# # Get predictions
-# y_prob = model.predict(X_test, batch_size=32)
-# y_pred = (y_prob >= 0.5).astype(int).ravel()
-
-# # Print the table you want
-# y_prob = model.predict(X_test)
-# y_pred = (y_prob >= 0.5).astype(int).ravel()
-# print("\nPer-class metrics:")
-# print(classification_report(y_test, y_pred, target_names=["Human", "Suno"]))
