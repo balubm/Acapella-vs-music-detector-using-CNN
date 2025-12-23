@@ -22,10 +22,7 @@ The model is trained on spectrograms of 20‑second clips and achieves **~94% te
 
 ## Running the app locally
 
-1. Clone the repo:
-
-    git clone https://github.com/balubm/acapella-vs-music-detector-using-cnn.git
-    cd acapella-vs-music-detector-using-cnn
+1. Clone this repo:
 
 2. (Optional) Create and activate a virtual environment.
 
@@ -75,14 +72,6 @@ The model is trained on spectrograms of 20‑second clips and achieves **~94% te
   
   Both sources were downsampled to 20‑second clips and balanced to **1,000 Acapella / 1,000 Music** examples.
 
----
-
-## Future work
-
-  - Scale to **tens of thousands** of clips with more genres, languages, and recording setups.  
-  - Add **lightweight baselines** (MFCC + SVM/logistic regression) for low‑compute scenarios.  
-  - Add **monitoring and stress tests** (noise, loudness, codecs) for robustness.  
-  - Extend to related tasks using the same pipeline, e.g. **gender classification** of vocals and **language ID** for voice‑only clips.
 
 ---
 
