@@ -24,7 +24,7 @@ The model is trained on spectrograms of 20‑second clips and achieves **~94% te
 
 1. Clone the repo:
 
-    git clone https://github.com/<your-username>/acapella-vs-music-detector-using-cnn.git
+    git clone https://github.com/balubm/acapella-vs-music-detector-using-cnn.git
     cd acapella-vs-music-detector-using-cnn
 
 2. (Optional) Create and activate a virtual environment.
@@ -68,11 +68,10 @@ The model is trained on spectrograms of 20‑second clips and achieves **~94% te
 ## Data sources
 
   - **Acapella:**  
-  - Acappella dataset – https://ipcv.github.io/Acappella/acappella/  
+      - Acappella dataset – https://ipcv.github.io/Acappella/acappella/  
   
   - **Music (Human/FMA):**  
-  - FMA Free Music Archive (small/medium) –  
-   https://www.kaggle.com/datasets/imsparsh/fma-free-music-archive-small-medium  
+      - FMA Free Music Archive (small/medium) – https://www.kaggle.com/datasets/imsparsh/fma-free-music-archive-small-medium  
   
   Both sources were downsampled to 20‑second clips and balanced to **1,000 Acapella / 1,000 Music** examples.
 
